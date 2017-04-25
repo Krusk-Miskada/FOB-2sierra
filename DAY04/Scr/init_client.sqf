@@ -65,7 +65,7 @@ if (!didJIP) then {
 		["FOB JOHNSON, KUSHAB","<t align = 'center' shadow = '1' size = '1.0'>%1</t><br/>"]
 	] spawn ADF_fnc_typeWriter;
 
-	["2S","","FIRESTONE this is TWO SIERRA at JOHNSON. Over."] call ADF_fnc_MessageParser; sleep 12;
+	["2S","","FIRESTONE ici TWO SIERRA de JOHNSON. Parlez."] call ADF_fnc_MessageParser; sleep 12;
 	["ACO","ACO","TWO SIERRA this is FIRESTONE. Roger. Proceed with tasking. Out."] call ADF_fnc_MessageParser; 
 };
 
