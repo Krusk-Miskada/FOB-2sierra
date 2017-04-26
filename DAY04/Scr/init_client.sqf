@@ -65,25 +65,25 @@ if (!didJIP) then {
 		["FOB JOHNSON, KUSHAB","<t align = 'center' shadow = '1' size = '1.0'>%1</t><br/>"]
 	] spawn ADF_fnc_typeWriter;
 
-	["2S","","FIRESTONE this is TWO SIERRA at JOHNSON. Over."] call ADF_fnc_MessageParser; sleep 12;
-	["ACO","ACO","TWO SIERRA this is FIRESTONE. Roger. Proceed with tasking. Out."] call ADF_fnc_MessageParser; 
+	["2S","","FIRESTONE ici TWO SIERRA de JOHNSON. Contrôle radio. Parlez"] call ADF_fnc_MessageParser; sleep 12;
+	["ACO","ACO","TWO SIERRA ici FIRESTONE. Reçu. Accomplissez la mission. Terminer."] call ADF_fnc_MessageParser; 
 };
 
 [] spawn {
 	waitUntil {sleep 30; time > 10800}; // 30 mins left before Fairlight
-	["ACO","ACO","TWO SIERRA this is FIRESTONE. Message. Over."] call ADF_fnc_MessageParser; sleep 7;
-	["2S","","FIRESTONE this is TWO SIERRA. Send. Over."] call ADF_fnc_MessageParser; sleep 8;
-	["ACO","ACO","TWO SIERRA this is FIRESTONE. You have 30 mikes left before MOTHER activates FAIRLIGHT. Break. After that it is RTB and mission aborted. Over."] call ADF_fnc_MessageParser; sleep 16;
-	["2S","","FIRESTONE this is TWO SIERRA. Roger. Out."] call ADF_fnc_MessageParser; 
+	["ACO","ACO","TWO SIERRA ici FIRESTONE. Prenez message."] call ADF_fnc_MessageParser; sleep 7;
+	["2S","","FIRESTONE ici TWO SIERRA. Envoyez."] call ADF_fnc_MessageParser; sleep 8;
+	["ACO","ACO","TWO SIERRA ici FIRESTONE. Vous avez 30 mikes avant que MERE active le Protocole FAIRLIGHT. Une fois le protocole activée, vous ferez un RTB et la mission sera annulée . Parlez."] call ADF_fnc_MessageParser; sleep 16;
+	["2S","","FIRESTONE ici TWO SIERRA. Reçu. Terminer."] call ADF_fnc_MessageParser; 
 };
 
 [] spawn {
 	waitUntil {sleep 30; ADF_Fairlight};
-	["ACO","ACO","TWO SIERRA this is FIRESTONE. Priority message. Over."] call ADF_fnc_MessageParser; sleep 7;
-	["2S","","FIRESTONE this is TWO SIERRA. Send. Over."] call ADF_fnc_MessageParser; sleep 8;
-	["ACO","ACO","TWO SIERRA this is FIRESTONE. FAIRLIGHT activated. RTB. How copy?"] call ADF_fnc_MessageParser; sleep 20;
-	["2S","","FIRESTONE this is TWO SIERRA. Solid copy. TWO SIERRA is OSCAR MIKE. Over."] call ADF_fnc_MessageParser; sleep 9;
-	["ACO","ACO","TWO SIERRA this is FIRESTONE. Roger. Out."] call ADF_fnc_MessageParser;
+	["ACO","ACO","TWO SIERRA ici FIRESTONE. Prenez message."] call ADF_fnc_MessageParser; sleep 7;
+	["2S","","FIRESTONE ici TWO SIERRA. Envoyez."] call ADF_fnc_MessageParser; sleep 8;
+	["ACO","ACO","TWO SIERRA ici FIRESTONE. Protocole FAIRLIGHT activé. RTB. faite l'aperçu."] call ADF_fnc_MessageParser; sleep 20;
+	["2S","","FIRESTONE ici TWO SIERRA. Aperçu. TWO SIERRA en mouvement. Parlez."] call ADF_fnc_MessageParser; sleep 9;
+	["ACO","ACO","TWO SIERRA ici FIRESTONE. Reçu. Terminer."] call ADF_fnc_MessageParser;
 	sleep 20;
 
 	_l = ["tLayer"] call BIS_fnc_rscLayer; 
@@ -96,16 +96,16 @@ if (!didJIP) then {
 // End Mission comms
 [] spawn {
 	waitUntil {sleep 7; ADF_endMission};
-	["2S","","FIRESTONE this is TWO SIERRA. Message. Over."] call ADF_fnc_MessageParser; sleep 6;
-	["ACO","ACO","TWO SIERRA this is FIRESTONE. Send traffic. Over."] call ADF_fnc_MessageParser; sleep 8;
-	["2S","","FIRESTONE this is TWO SIERRA. AKIRA neutralized. How copy?"] call ADF_fnc_MessageParser; sleep 8;
-	["ACO","ACO","TWO SIERRA this is FIRESTONE. Solid copy. Return to JOHNSON for debrief. Over."] call ADF_fnc_MessageParser; sleep 11;
-	["2S","","FIRESTONE this is TWO SIERRA. Roger. We are OSCAR MIKE. Out."] call ADF_fnc_MessageParser;
+	["2S","","FIRESTONE ici TWO SIERRA. Prenez message."] call ADF_fnc_MessageParser; sleep 6;
+	["ACO","ACO","TWO SIERRA ici FIRESTONE. Envoyez."] call ADF_fnc_MessageParser; sleep 8;
+	["2S","","FIRESTONE ici TWO SIERRA. AKIRA est neutralisé. Parlez"] call ADF_fnc_MessageParser; sleep 8;
+	["ACO","ACO","TWO SIERRA ici FIRESTONE. Reçu. Retournez à JOHNSON pour le debrief. Parler."] call ADF_fnc_MessageParser; sleep 11;
+	["2S","","FIRESTONE ici TWO SIERRA. Reçu, en mouvement. Terminer."] call ADF_fnc_MessageParser;
 	
 	waitUntil {sleep 5; triggerActivated tEndMission};
 			
 	sleep 10;	
-	["ACO","ACO","FIRSTONE: Good to see you back in once piece TWO SIERRA.<br/><br/>MOTHER just issued FAIRLIGHT protocol. We are leaving this hell hole.<br/><br/>Return to LEO and pack-up you shit. Oh and by the way, Nice work on that base camp."] call ADF_fnc_MessageParser; 
+	["ACO","ACO","FIRSTONE: Ravi de vous revoir en un seul morceau TWO SIERRA.<br/><br/>MERE a activé le Protocole FAIRLIGHT. Nous quittons cet enfer.<br/><br/>Retournez à la base pour un REMEC. Et au fait, bon travail sur cette base."] call ADF_fnc_MessageParser; 
 	sleep 20;
 
 	_l = ["tLayer"] call BIS_fnc_rscLayer; 
