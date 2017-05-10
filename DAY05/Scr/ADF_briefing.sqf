@@ -99,7 +99,7 @@ Password: CARTMAN
 player createDiaryRecord ["2SOPORD",["Notes","<br/><br/>
 <font size='18'>NOTES</font><br/><br/>
 <font color='#9DA698'>
-Les séparatistes soboriens ont multipliés leurs efforts pour gagner plus de territoire à l'est de Chernarus. Des efforts récents ont causé de nombreuses victimes civiles. Après des mois de négociations, la Croix-Rouge a finalement obtenu la permission de créer un hôpital de terrain mobile (MARY) dans la zone de conflit. L'hôpital traite plus de 100 victimes civiles par jour et nécessite donc de matériel médical.<br />
+Les séparatistes soboriens ont multiplié leurs efforts pour gagner plus de territoire à l'est de Chernarus. Des efforts récents ont causé de nombreuses victimes civiles. Après des mois de négociations, la Croix-Rouge a finalement obtenu la permission de créer un hôpital de terrain mobile (MARY) dans la zone de conflit. L'hôpital traite plus de 100 victimes civiles par jour et nécessite donc de matériel médical.<br />
 Les deux derniers transports médicaux effectués par la Croix-Rouge ont été capturés par des séparatistes soboriens. Les fournitures ont été vendues sur le marché noir. La Croix-Rouge a demandé à l'OTAN de mener à bien les convois jusqu'à ce que les choses se soient calmées.
 </font><br/><br/>
 "]];
@@ -157,7 +157,7 @@ CAS: RAVEN, AH-99 à FARGO. Indicatif: ECHO
 player createDiaryRecord ["2SOPORD",["Execution","<br/><br/>
 <font size='18'>EXECUTION</font><br/><br/>
 
-<font size='14' color='#d7dbd5'>CONCEPTE DE L'OPERATION</font><br/>
+<font size='14' color='#d7dbd5'>CONCEPT DE L'OPERATION</font><br/>
 
 <font color='#9DA698'>
 1. Sortir de FARGO et conduire vers le nord en direction de DONALD checkpoint (CP) (via YORK ou OLAV).<br/>
@@ -296,12 +296,12 @@ player createDiarySubject ["2SCPGN","Two Sierra Campaign"];
 player createDiaryRecord ["2SCPGN",["Game Master/Commander Info","<br/><br/>
 <font size='18'>GAME MASTER/COMMANDER INFORMATION</font><br/><br/>
 <font color='#9DA698'>
-Game Masters/Commanders, please note the following:<br/><br/>
-01. All Two Sierra missions have pre-defined objectives.<br/>
-02. All communication (hints) is logged in the 'Two Sierra log'<br/>
-    which can be accessed from the map screen menu.<br/>
-03. Please pay attention to additional objective orders or end<br/>
-    mission information. Check the log frequently.<br/>
+Game Masters/Commandants, merci de noter les points suivants:<br/><br/>
+01. Toutes les missions 2 Sierra ont des objectifs pré définis.<br/>
+02. Toutes les coms sont loguées dans le 'Two Sierra log'<br/>
+    que l'on peut consulter dans le menu carte.<br/>
+03. Faites attention aux ordres de mission<br/>
+    Vérifiez souvent le log book.<br/>
 04. All missions have been play tested. If you discover a bug,<br/>
     please report the bug on the BIS forum or on GitHub. Contact<br/>
     information can be found on www.2sierra.com.<br/>
@@ -310,16 +310,16 @@ Game Masters/Commanders, please note the following:<br/><br/>
     headless clients for optimal performance.<br/>
     Note that AI's are spawned on the server. The load balancer kicks<br/>
     in after 120 seconds after mission start.<br/>
-05. Most missions are time-sensitive. Command will be informed in<br/>
-    case they run out of time (2-3 hours, depending on the<br/>
-    mission).<br/>
-06. All player roles are equipped with pre-defined role loadout.<br/>
-    Additional gear and supplies can be found in the vehicles.<br/>
-07. Most missions offer CAS support. CAS can be called in by the<br/>
-    platoon commander using the action menu.<br/>
-08. Two Sierra has a pre-configured platoon radio net.<br/>
-    Settings/frequencies can be found under 'Two Sierra Roster'<br/>
-    in the map screen menu	
+05. Toutes les missions sont sensibles au temps. Le commandant est informé<br/>
+    si le temps est dépassé (2-3 heures, en fonction<br/>
+   de la mission).<br/>
+06. Tous les slots sont pre equipe avec un equipement defini.<br/>
+    Du matériel additionnel peut disponible dans les véhicules.<br/>
+07. La plupart des missions offrent un support aerien. CAS peut etre appele par<br/>
+    le commandant via le menu.<br/>
+08. 2 Sierra a des frequences radio pre definies.<br/>
+    Les frequences peuvent etre consultées dans le 'Two Sierra Roster'<br/>
+  dans le menu carte
 <br/><br/>
 <font size='14' color='#d7dbd5'>FEEDBACK</font><br/>
 I would love to hear feedback about your game night. If you have a YouTube cam recording or screen shots, please let me know. I'll post them on the www.2sierra.com website.<br/><br/>
