@@ -60,7 +60,7 @@ The Two Sierra campaign is powered by ADF.
 ///// OPORD
 player createDiarySubject ["2SOPORD","Two Sierra OPORD"];
 
-// call signs
+// Indicatifs
 player createDiaryRecord ["2SOPORD",["Call Signs","<br/><br/>
 <font size='18'>CALL SINGS</font><br/><br/>
 
@@ -73,9 +73,9 @@ NRF 2 SPT GRP - UNCLE<br/>
 Chernarussian Armed Forces - DONALD<br/><br/>
 
 BALOTA AB - FARGO<br/>
-Red Cross Hospital - MARY<br/>
-Medical Truck 1 - EVEREST1<br/>
-Medical Truck 2 - EVEREST2<br/><br/>
+Hospital croix rouge- MARY<br/>
+Camion Medical 1 - EVEREST1<br/>
+Camion Medical 2 - EVEREST2<br/><br/>
 
 Soborian Separatists - JOSEPH<br/>
 CSAT Russian Forces - BORIS
@@ -83,9 +83,9 @@ CSAT Russian Forces - BORIS
 </font><br/><br/><font size='14' color='#d7dbd5'>NOTAF</font><br/>
 
 <font color='#9DA698'>
-VEGAS - Primary MSR<br/>
-YORK - Secondary MSR<br/>
-OLAV - Tertiary MSR
+VEGAS - MSR principale<br/>
+YORK - MSR secondaire<br/>
+OLAV - MSR tertiaire
 
 <br/><br/></font><font size='14' color='#d7dbd5'>CHALLENGES</font><br/>
 
@@ -99,197 +99,194 @@ Password: CARTMAN
 player createDiaryRecord ["2SOPORD",["Notes","<br/><br/>
 <font size='18'>NOTES</font><br/><br/>
 <font color='#9DA698'>
-Soborian Separatists have increased their efforts to gain more territory in East Chernarus. Recent efforts have caused numerous civilian casualties. After months of negotiations, The Red Cross finally got permission to create a mobile field hospital (MARY) in the conflict zone. The hospital treats more than 100 civilian casualties per day and therefore requires sufficient medical supplies.<br />
-The last two medical supply transports carried out by the Red Cross were captured by Soborian Separatists. The supplies were sold on the black market. The Red Cross has asked NATO to carry out the supply runs until things have calmed down.
+Les séparatistes soboriens ont multipliés leurs efforts pour gagner plus de territoire à l'est de Chernarus. Des efforts récents ont causé de nombreuses victimes civiles. Après des mois de négociations, la Croix-Rouge a finalement obtenu la permission de créer un hôpital de terrain mobile (MARY) dans la zone de conflit. L'hôpital traite plus de 100 victimes civiles par jour et nécessite donc de matériel médical.<br />
+Les deux derniers transports médicaux effectués par la Croix-Rouge ont été capturés par des séparatistes soboriens. Les fournitures ont été vendues sur le marché noir. La Croix-Rouge a demandé à l'OTAN de mener à bien les convois jusqu'à ce que les choses se soient calmées.
 </font><br/><br/>
 "]];
 
-// command & signal
+// COMMANDEMENT ET TRANSMISSION
 player createDiaryRecord ["2SOPORD",["Command & Signal","<br/><br/>
-<font size='18'>COMMAND AND SIGNAL</font><br/><br/>
+<font size='18'>COMMANDEMENT ET TRANSMISSION</font><br/><br/>
 
 <font size='14' color='#d7dbd5'>COMMAND</font><br/>
 
 <font color='#9DA698'>
-Commander leader location: SOP, Commanders intent<br/>
-Chain of Command: 2 PC, 2 SQL, 2 WTL, 2 FTL
+Place du chef: conforme<br/>
+Chaine de commandement: 2 PC, 2 SQL, 2 WTL, 2 FTL
 <br/><br/></font>
 
 <font size='14' color='#d7dbd5'>SIGNAL</font><br/>
 
 <font color='#9DA698'>
-Frequencies and call signs: Annex B<br/>
-Pyrotechnics and signals: SOP<br/>
-Challenges and passwords: Annex B<br/>
-Code words: SOP
+Fréquences et indicatifs: Annexe B<br/>
+Pyrotechnie et signaux: conforme<br/>
+Challenges et passwords: Annex B<br/>
+Code: conforme
 </font><br/><br/>
 "]];
 
-// service & support
+// EQUIPEMENTS ET APPUIS
 player createDiaryRecord ["2SOPORD",["Service & Support","<br/><br/>
-<font size='18'>SERVICE AND SUPPORT</font><br/><br/>
+<font size='18'>EQUIPEMENTS ET APPUIS</font><br/><br/>
 
 <font size='14' color='#d7dbd5'>SUPPLY</font><br/>
 
 <font color='#9DA698'>
-SOPs in effect for sustainment operations. CCPs to be established on-site. MediVac available at FARGO.<br/><br/>
-Rations: ammo and material supply in vehicles, NRF SOP<br/>
-Uniforms: NRF VJTF 2 PLT SOP<br/>
-Arms and ammunitions: NRF VJTF 2 PLT SOP
+Procédure standard en vigueur pour les opérations de maintien en puissance. Les zones d'évacuations doivent être établis sur place. MEDEVAC disponible à FARGO.<br/><br/>
+Equipements: approvisionnement en munitions et matériels dans les véhicules.<br/>
+Uniformes: Tenue URR<br/>
+Armements et munitions: Arsenal Virtuel
 
-</font><br/><br/><font size='14' color='#d7dbd5'>VEHICLES</font><br/>
+</font><br/><br/><font size='14' color='#d7dbd5'>VEHICULES</font><br/>
 
 <font color='#9DA698'>
-PC – 1 x MRAP<br/>
-2-1 Squad/2-2 Squad – 4 x MRAP, 2 x MRAP HMG<br/>
-2-3 Squad – 2 x MRAP GMG<br/>
-Captured material: SOP
+PC – 1 x Humvee<br/>
+2-1 Squad/2-2 Squad – 4 x Humvees, 2 x Humvees 12.7<br/>
+2-3 Squad – 1 x Humvees 12.7 / 1 x Humvees 40<br/>
+Matériel capturé: procédure standard.
 <br/><br/></font>
 
-<font size='14' color='#d7dbd5'>SUPPORT</font><br/>
+<font size='14' color='#d7dbd5'>APPUIS</font><br/>
 
 <font color='#9DA698'>
-CAS: RAVEN, AH-99 ex FARGO. Station: ECHO
+CAS: RAVEN, AH-99 à FARGO. Indicatif: ECHO
 </font><br/><br/>
 "]];
 
-// execution
+// EXECUTION
 player createDiaryRecord ["2SOPORD",["Execution","<br/><br/>
 <font size='18'>EXECUTION</font><br/><br/>
 
-<font size='14' color='#d7dbd5'>CONCEPT OF OPERATIONS</font><br/>
+<font size='14' color='#d7dbd5'>CONCEPTE DE L'OPERATION</font><br/>
 
 <font color='#9DA698'>
-1. 2PLT to move out ex FARGO and drive north towards DONALD CP (either via YORK or OLAV).<br/>
-2. 2PLT to provide security for EVEREST1 and EVEREST2.<br/>
-3. 2PLT to convoy past the green zone and deliver EVEREST1 and EVEREST2 at MARY.<br/>
-4. 2PLT to return to FARGO for debrief.<br/>
-5. ORP’s to be established prior to departure.<br/>
-6. Execution of mission objectives to be briefed on site by PC.
+1. Sortir de FARGO et conduire vers le nord en direction de DONALD checkpoint (CP) (via YORK ou OLAV).<br/>
+2. Assurer la sécurité de EVEREST1 et EVEREST2.<br/>
+3. Traverser la zone verte et livrer EVEREST1 et EVEREST2 à MARY.<br/>
+4. Retourner à FARGO pour un compte rendu.<br/>
+5. Les points de regroupement doivent être reconnus avant le départ.<br/>
+6. Rendre compte de l'exécution des objectifs de la mission.
 
 <br/><br/></font>
 
-<font size='14' color='#d7dbd5'>COMMANDERS INTENT</font><br/>
+<font size='14' color='#d7dbd5'>INTENTION DU COMMANDEMENT</font><br/>
 
 <font color='#9DA698'>
-2PLT will travel in SOP convoy to MARY. 2PLT will locate MARY. 2PLT will deliver EVEREST1 and EVEREST2 at MARY. 2PLT will travel in SOP convoy to FARGO.
+Déplacement en convoi en procédure standard jusqu'à MARY. Trouver MARY. Livrer EVEREST1 et EVEREST2. Revenir en convoi à FARGO.
 <br/><br/></font>
 
-<font size='14' color='#d7dbd5'>SUB UNIT MISSIONS</font><br/>
+<font size='14' color='#d7dbd5'>MISSION DES UNITEES SUBORDONNEES</font><br/>
 
 <font color='#9DA698'>
-None.<br/><br/>
+Néant.<br/><br/>
 </font>
 
-<font size='14' color='#d7dbd5'>COORDINATING INSTRUCTIONS</font><br/>
+<font size='14' color='#d7dbd5'>COORDINATION</font><br/>
 
 <font color='#9DA698'>
-1. Order of movement, formations: On-site commanders intent, SOP<br/>
-2. Actions at halts (short/long): SOP<br/>
-3. Routes (primary/alternate): MSR VEGAS, MSR OLAV / MSR YORK.<br/>
-4. IRP: MSR YORK.<br/>
-5. Actions at danger areas: SOP<br/>
-6. Actions on enemy contact: SOP<br/>
-7. Reorganization and consolidation: SOP<br/>
-8. Fire control measures: On-site commanders intent, SOP<br/>
-9. Priority Intelligence Requirements: On-site, MOTHER<br/>
-10. Debriefing requirements: Commanders intent<br/>
-11. Reports: ACE: SOP, SALUTE: SOP<br/>
-12. ROE: On-site commanders intent, SOP
+1. Ordre de mouvement, formations: initiative du commandement sur place, procédure standard.<br/>
+2. Actions pour les arrêts (court / long): procédure standard.<br/>
+3. Routes (primaire / secondaire): MSR VEGAS / MSR OLAV / MSR YORK.<br/>
+4. MSR principal: YORK<br/>
+5. Actions dans les zones dangereuses: procédure standard.<br/>
+6. Actions au contact de l'ennemi: procédure standard.<br/>
+7. Réorganisation et consolidation: procédure standard.<br/>
+8. Mesures de lutte contre l'incendie: initiative du commandement sur place, procédure standard.<br/>
+9. Renseignement de priorité, rendre compte à MÈRE.<br/>
+10. Débriefing: initiative du commandement.<br/>
+11. Règle d'engagement: initiative du commandement sur place, procédure standard.<br/>
 </font><br/><br/>
 "]];
 
-// mission
+// MISSION
 player createDiaryRecord ["2SOPORD",["Mission","<br/><br/>
 <font size='18'>MISSION</font><br/><br/>
 <font color='#9DA698'>
-Transport and deliver two medical trucks, EVEREST1 and EVEREST2, to MARY.
+Transporter et livrer EVEREST1 et EVEREST2 à MARY.
 </font><br/><br/>
 "]];
 
-// situation
+// SITUATION
 player createDiaryRecord ["2SOPORD",["Situation","<br/><br/>
 <font size='18'>SITUATION</font><br/><br/>
 
 <font color='#9DA698'>
-OpFor: Soborian Separatists (JOSEPH) and Armed Forces of the Russian Federation (BORIS)<br/>
-The escalation between CAF (DONALD) and JOSEPH has taken its toll on the civilian population. The Red Cross has set-up a field hospital (MARY) north of the green zone. MARY is in urgent need of medical supplies. 
+OpFor: Separatistes Soboriens (JOSEPH) et Forces Armées de la Fédération de Russie (BORIS)<br/>
+L'escalade de violence entre CAF (Chernarus Armed Forces: DONALD) et JOSEPH a porté ses conséquences sur la population civile. La Croix-Rouge a mis en place un hôpital de campagne (MARY) au nord de la zone verte. MARY a besoin d'un approvisionnement médical urgent.
 <br/><br/>
 </font>
 
-<font size='14' color='#d7dbd5'>ENEMY FORCES</font><br/>
+<font size='14' color='#d7dbd5'>FORCES ENI</font><br/>
 
 <font color='#9DA698'>
-1. JOSEPH has a moderate presence in most urban areas north of the green zone.<br />
-2. BORIS has increased its presence at Lapotino AB with 11th ArmInf Bat. <br />
-3. JOSEPH: Small arms and IFV’s patrol north of the green zone and occasionally cross over into DONALD territory. <br />
-4. Strength JOSEPH: Est. 3000-4000 separatists in the Sobor Province. <br />
-5. Strength BORIS: 3 Infantry Battalions, 1 Cavalry Battalion and 2 Air Wings + support coy’s. Est. 2700 pax. <br />
-6. MPCOA: Once BluFor has been detected by JOSEPH, reinforcements will be called in. MARY is a neutral zone. <br />
-7. JOSEPH arms: various small arms, mostly Russian, some Iranian and unknown origin. <br />
-   AT capability: RPG, MPRL. <br />
-8. JOSEPH CR: mostly casual clothing + light body armor + improvised vests. Most JOSEPH carry backpacks with IED’s and limited supplies.
-
-<br/><br/>
-</font>
-
-<font size='14' color='#d7dbd5'>FRIENDLY FORCES</font><br/>
-
-<font color='#9DA698'>
-1. VJTF 5 BAT, 2nd Platoon. OUS: ANNEX A.<br/>
-2. NRF 2 SPT GRP at FARGO.<br/>
-3. CAF 3rd and 4th BATT at Disha AB.<br/>
-4. CAF 2nd AIRBORN INF BRIG at Elektrozavodsko
+1. JOSEPH a une présence modérée dans la plupart des zones urbaines au nord de la zone verte.<br />
+2. BORIS a augmenté sa présence à Lapotino AB avec la 11ème CIE d'infanterie. <br />
+3. JOSEPH: armes légères et patrouille au nord de la zone verte. Traversent parfois le territoire de DONALD. <br />
+4. JOSEPH: Estimé à 3000-4000 séparatistes dans la province de Sobor.<br />
+5. BORIS: 3 CIE d'inf., 1 CIE de cavalerie et 2 avions. Estimé à 2700 pax. <br />
+6. Action: Une fois que les BluFor ont été détecté par JOSEPH, des renforts seront appelés. MARY est une zone neutre. <br />
+7. Armement: diverses armes légères, principalement russes et iranienne. Capacité anti-char: RPG. <br />
+8. Tenues: vêtements principalement décontractés, gilets improvisés. La plupart des JOSEPH portent des sacs à dos avec des IED et des fournitures limitées.
 
 <br/><br/>
 </font>
 
-<font size='14' color='#d7dbd5'>NEUTRAL</font><br/>
+<font size='14' color='#d7dbd5'>FORCES AMI</font><br/>
 
 <font color='#9DA698'>
-1. None<br/><br/>
+1. 5ème Compagnie (CIE), 2ème Section: voir ANNEXE A.<br/>
+2. 2 Groupe de soutien à FARGO.<br/>
+3. CAF: 3ème et 4ème CIE à Disha AB.<br/>
+4. CAF: 2ème CIE d'INF à Elektrozavodsko.
+
+<br/><br/>
 </font>
 
-<font size='14' color='#d7dbd5'>CIVILIANS</font><br/>
+<font size='14' color='#d7dbd5'>DIVERS</font><br/>
 
 <font color='#9DA698'>
-1. Civilians in the AO are generally neutral towards coalition forces.
+1. Néant<br/><br/>
+</font>
+
+<font size='14' color='#d7dbd5'>CIVILS</font><br/>
+
+<font color='#9DA698'>
+1. Les civils sont généralement neutres face aux forces de la coalition.
 </font><br/><br/>
 
-<font size='14' color='#d7dbd5'>ATTACHMENTS AND DETACHMENTS</font><br/>
+<font size='14' color='#d7dbd5'>SOUTIENT ET DÉTACHEMENTS</font><br/>
 
 <font color='#9DA698'>
-Attachments: 1 x AH-99, 6 CAVBAT, 6TH SQDR, ex FARGO.<br/>
-Detachments: none.
+Soutient: 1 x AH-99, 6 unités de cavalerie, 6ème CIE à FARGO.<br/>
+Détachement: néant.
 </font><br/><br/>
 "]];
 
-// terrain & weather
+// TERRAIN ET METEO
 player createDiaryRecord ["2SOPORD",["Terrain & weather","<br/><br/>
-<font size='18'>TERRAIN AND WEATHER</font><br/><br/>
+<font size='18'>TERRAIN ET METEO</font><br/><br/>
 
 <font size='14' color='#d7dbd5'>TERRAIN</font><br/>
 
 <font color='#9DA698'>
-1.	225 Km2 of which 100+ Km2 forest areas and rocky coastlines.<br/>
-2.	Semi-mountainous. MSL ranging from 0.1 m to 714.15 m.<br/>
-3.	Four MSR’s running from North to South and West to North.<br/>
-4.	MSR tarmac roads are off good quality. Dirt roads off-side MSR’s.<br/>
-5.	Forest areas provide good cover. <br/>
-6.	Largest cities are concentrated in the South and South East. Various industrial installations in proximity of large cities.<br/>
-7.	Smaller village’s inland, situated in deep valleys, hidden in forested ridges or on elevated plateaus with lush meadows.<br/>
-8.	Effects on enemy: usage of forests for cover and operating bases.<br/>
-9.	Effects on friendly: hill and forest provide cover even when travelling on the MSR’s.<br/>
-10.	Key terrain: Lush, Forest, dense vegetation, 
+1.	Semi-montagneux. 225 KM² dont plus de 100 KM² de forêts et de côtes rocheuses.<br/>
+2.	Altitude moyenne: 600 M<br/>
+3.	Quatre MSR: du nord au sud et de l'ouest au nord: VEGAS / YORK / OLAV / DURBAN<br/>
+4.	Les MSR sont de bonne qualité.<br/>
+5.	Les zones forestières offrent une bonne couverture. <br/>
+6.	Les plus grandes villes sont concentrées dans le Sud et le Sud-Est de l'île. Diverses installations industrielles sont situées à proximité des grandes villes.<br/>
+7.	Les plus petits villages sont situés dans des vallées profondes, caché dans les crêtes boisées ou sur des plateaux élevés avec des prés luxuriants.<br/>
+8.	ENI: utilisation des forêts pour la couverture et les bases d'opérations.<br/>
+9.	AMI: les collines et les forêts fournissent une couverture même en ce déplacent sur le MSR.<br/>
 <br/><br/>
 </font>
 
-<font size='14' color='#d7dbd5'>WEATHER</font><br/>
+<font size='14' color='#d7dbd5'>METEO</font><br/>
 
 <font color='#9DA698'>
-1.	Temperature High: 17C.<br/>
-2.	Temperature Low: 11C, Dew point: 17C.<br/>
-3.	Wind: Moderate, 7-12 Knots.
+1.	Temp. max.: 17C°<br/>
+2.	Temp. mini.: 11C°<br/>
+3.	Vent: Modéré, 13 à 22.
 </font><br/><br/>
 "]];
 
