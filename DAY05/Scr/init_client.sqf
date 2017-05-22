@@ -13,47 +13,47 @@ sleep 3; // Loadout finished > pri weapon loaded
 
 if (!didJIP) then {
 	// PC 		- MRAP_2PC
-	if !(isNil "INF_RTO_1") then {if (player == INF_RTO_1) then {INF_RTO_1 assignAsDriver MRAP_2PC; INF_RTO_1 moveInDriver MRAP_2PC}};
-	if !(isNil "INF_PC") then {if (player == INF_PC) then {INF_PC assignAsCargo MRAP_2PC; INF_PC moveInCargo MRAP_2PC}};
+	if !(isNil "FOC_CDE_41") then {if (player == FOC_CDE_41) then {FOC_CDE_41 assignAsDriver MRAP_2PC; FOC_CDE_41 moveInDriver MRAP_2PC}};
+	if !(isNil "FOC_CDE_4") then {if (player == FOC_CDE_4) then {FOC_CDE_4 assignAsCargo MRAP_2PC; FOC_CDE_4  moveInCargo MRAP_2PC}};
 
 	// 2-1 SQUAD L	- MRAP_2_1_SQUAD
-	if !(isNil "INF_SQL_1") then {if (player == INF_SQL_1) then {INF_SQL_1 assignAsDriver MRAP_2_1_SQUAD; INF_SQL_1 moveInDriver MRAP_2_1_SQUAD}};
-	if !(isNil "INF_CLS_1") then {if (player == INF_CLS_1) then {INF_CLS_1 assignAsCargo MRAP_2_1_SQUAD; INF_CLS_1 moveInCargo MRAP_2_1_SQUAD}};
+	if !(isNil "FOC_CDE_1") then {if (player == FOC_CDE_1) then {FOC_CDE_1 assignAsDriver MRAP_2_1_SQUAD; FOC_CDE_1 moveInDriver MRAP_2_1_SQUAD}};
+	if !(isNil "FOC_TP_11") then {if (player == FOC_TP_11) then {FOC_TP_11 assignAsCargo MRAP_2_1_SQUAD; FOC_TP_11 moveInCargo MRAP_2_1_SQUAD}};
 	// 2-1 ALPHA	- MRAP_2_1_ALPHA
-	if !(isNil "INF_AR_1") then {if (player == INF_AR_1) then {INF_AR_1 assignAsDriver MRAP_2_1_ALPHA; INF_AR_1 moveInDriver MRAP_2_1_ALPHA}};
-	if !(isNil "INF_AAR_1") then {if (player == INF_AAR_1) then {INF_AAR_1 assignAsGunner MRAP_2_1_ALPHA; INF_AAR_1 moveInGunner MRAP_2_1_ALPHA}};
-	if !(isNil "INF_RAT_1") then {if (player == INF_RAT_1) then {INF_RAT_1 assignAsCargo MRAP_2_1_ALPHA; INF_RAT_1 moveInCargo MRAP_2_1_ALPHA}};
-	if !(isNil "INF_FTL_1") then {if (player == INF_FTL_1) then {INF_FTL_1 assignAsCargo MRAP_2_1_ALPHA; INF_FTL_1 moveInCargo MRAP_2_1_ALPHA}};
+	if !(isNil "FOC_CDE_2") then {if (player == FOC_CDE_2) then {FOC_CDE_2 assignAsDriver MRAP_2_1_ALPHA; FOC_CDE_2 moveInDriver MRAP_2_1_ALPHA}};
+	if !(isNil "FOC_GV_21") then {if (player == FOC_GV_21) then {FOC_GV_21 assignAsGunner MRAP_2_1_ALPHA; FOC_GV_21 moveInGunner MRAP_2_1_ALPHA}};
+	if !(isNil "FOC_AT_21") then {if (player == FOC_AT_21) then {FOC_AT_21 assignAsCargo MRAP_2_1_ALPHA; FOC_AT_21 moveInCargo MRAP_2_1_ALPHA}};
+	if !(isNil "FOC_MED_21") then {if (player == FOC_MED_21) then {FOC_MED_21 assignAsCargo MRAP_2_1_ALPHA; FOC_MED_21 moveInCargo MRAP_2_1_ALPHA}};
 	// 2-1 BRAVO	- MRAP_2_1_BRAVO
-	if !(isNil "INF_AR_2") then {if (player == INF_AR_2) then {INF_AR_2 assignAsDriver MRAP_2_1_BRAVO; INF_AR_2 moveInDriver MRAP_2_1_BRAVO}};
-	if !(isNil "INF_AAR_2") then {if (player == INF_AAR_2) then {INF_AAR_2 assignAsCargo MRAP_2_1_BRAVO; INF_AAR_2 moveInCargo MRAP_2_1_BRAVO}};
-	if !(isNil "INF_RAT_2") then {if (player == INF_RAT_2) then {INF_RAT_2 assignAsCargo MRAP_2_1_BRAVO; INF_RAT_2 moveInCargo MRAP_2_1_BRAVO}};
-	if !(isNil "INF_FTL_2") then {if (player == INF_FTL_2) then {INF_FTL_2 assignAsCargo MRAP_2_1_BRAVO; INF_FTL_2 moveInCargo MRAP_2_1_BRAVO}};
+	if !(isNil "FOC_CDE_3") then {if (player == FOC_CDE_3) then {FOC_CDE_3 assignAsDriver MRAP_2_1_BRAVO; FOC_CDE_3 moveInDriver MRAP_2_1_BRAVO}};
+	if !(isNil "FOC_LGI_31") then {if (player == FOC_LGI_31) then {FOC_LGI_31 assignAsCargo MRAP_2_1_BRAVO; FOC_LGI_31 moveInCargo MRAP_2_1_BRAVO}};
+	if !(isNil "FOC_MIN_31") then {if (player == FOC_MIN_31) then {FOC_MIN_31 assignAsCargo MRAP_2_1_BRAVO; FOC_MIN_31 moveInCargo MRAP_2_1_BRAVO}};
+	if !(isNil "FOC_MED_31") then {if (player == FOC_MED_31) then {FOC_MED_31 assignAsCargo MRAP_2_1_BRAVO; FOC_MED_31 moveInCargo MRAP_2_1_BRAVO}};
 
 	// 2-2 SQUAD L	- MRAP_2_2_SQUAD
-	if !(isNil "INF_SQL_2") then {if (player == INF_SQL_2) then {INF_SQL_2 assignAsDriver MRAP_2_2_SQUAD; INF_SQL_2 moveInDriver MRAP_2_2_SQUAD}};
-	if !(isNil "INF_CLS_2") then {if (player == INF_CLS_2) then {INF_CLS_2 assignAsCargo MRAP_2_2_SQUAD; INF_CLS_2 moveInCargo MRAP_2_2_SQUAD}};
+	if !(isNil "FOC_CDE_5") then {if (player == FOC_CDE_5) then {FOC_CDE_5 assignAsDriver MRAP_2_2_SQUAD; FOC_CDE_5 moveInDriver MRAP_2_2_SQUAD}};
+	if !(isNil "FOC_TP_51") then {if (player == FOC_TP_51) then {FOC_TP_51 assignAsCargo MRAP_2_2_SQUAD; FOC_TP_51 moveInCargo MRAP_2_2_SQUAD}};
 	// 2-2 ALPHA	- MRAP_2_2_ALPHA
-	if !(isNil "INF_AR_3") then {if (player == INF_AR_3) then {INF_AR_3 assignAsDriver MRAP_2_2_ALPHA; INF_AR_3 moveInDriver MRAP_2_2_ALPHA}};
-	if !(isNil "INF_AAR_3") then {if (player == INF_AAR_3) then {INF_AAR_3 assignAsGunner MRAP_2_2_ALPHA; INF_AAR_3 moveInGunner MRAP_2_2_ALPHA}};
-	if !(isNil "INF_RAT_3") then {if (player == INF_RAT_3) then {INF_RAT_3 assignAsCargo MRAP_2_2_ALPHA; INF_RAT_3 moveInCargo MRAP_2_2_ALPHA}};
-	if !(isNil "INF_FTL_3") then {if (player == INF_FTL_3) then {INF_FTL_3 assignAsCargo MRAP_2_2_ALPHA; INF_FTL_3 moveInCargo MRAP_2_2_ALPHA}};
+	if !(isNil "FOC_CDE_6") then {if (player == FOC_CDE_6) then {FOC_CDE_6 assignAsDriver MRAP_2_2_ALPHA; FOC_CDE_6 moveInDriver MRAP_2_2_ALPHA}};
+	if !(isNil "FOC_GV_61") then {if (player == FOC_GV_61) then {FOC_GV_61 assignAsGunner MRAP_2_2_ALPHA; FOC_GV_61 moveInGunner MRAP_2_2_ALPHA}};
+	if !(isNil "FOC_AT_61") then {if (player == FOC_AT_61) then {FOC_AT_61 assignAsCargo MRAP_2_2_ALPHA; FOC_AT_61 moveInCargo MRAP_2_2_ALPHA}};
+	if !(isNil "FOC_MED_61") then {if (player == FOC_MED_61) then {FOC_MED_61 assignAsCargo MRAP_2_2_ALPHA; FOC_MED_61 moveInCargo MRAP_2_2_ALPHA}};
 	// 2-2 BRAVO	- MRAP_2_2_BRAVO
-	if !(isNil "INF_AR_4") then {if (player == INF_AR_4) then {INF_AR_4 assignAsDriver MRAP_2_2_BRAVO; INF_AR_4 moveInDriver MRAP_2_2_BRAVO}};
-	if !(isNil "INF_AAR_4") then {if (player == INF_AAR_4) then {INF_AAR_4 assignAsCargo MRAP_2_2_BRAVO; INF_AAR_4 moveInCargo MRAP_2_2_BRAVO}};
-	if !(isNil "INF_RAT_4") then {if (player == INF_RAT_4) then {INF_RAT_4 assignAsCargo MRAP_2_2_BRAVO; INF_RAT_4 moveInCargo MRAP_2_2_BRAVO}};
-	if !(isNil "INF_FTL_4") then {if (player == INF_FTL_4) then {INF_FTL_4 assignAsCargo MRAP_2_2_BRAVO; INF_FTL_4 moveInCargo MRAP_2_2_BRAVO}};
+	if !(isNil "FOC_CDE_7") then {if (player == FOC_CDE_7) then {FOC_CDE_7 assignAsDriver MRAP_2_2_BRAVO; FOC_CDE_7 moveInDriver MRAP_2_2_BRAVO}};
+	if !(isNil "FOC_LGI_71") then {if (player == FOC_LGI_71) then {FOC_LGI_71 assignAsCargo MRAP_2_2_BRAVO; FOC_LGI_71 moveInCargo MRAP_2_2_BRAVO}};
+	if !(isNil "FOC_MIN_71") then {if (player == FOC_MIN_71) then {FOC_MIN_71 assignAsCargo MRAP_2_2_BRAVO; FOC_MIN_71 moveInCargo MRAP_2_2_BRAVO}};
+	if !(isNil "FOC_MED_71") then {if (player == FOC_MED_71) then {FOC_MED_71 assignAsCargo MRAP_2_2_BRAVO; FOC_MED_71 moveInCargo MRAP_2_2_BRAVO}};
 
 	// 2-3 ALPHA	- MRAP_2_3_WT1
-	if !(isNil "INF_AMG_1") then {if (player == INF_AMG_1) then {INF_AMG_1 assignAsDriver MRAP_2_3_WT1; INF_AMG_1 moveInDriver MRAP_2_3_WT1}};
-	if !(isNil "INF_MG_1") then {if (player == INF_MG_1) then {INF_MG_1 assignAsGunner MRAP_2_3_WT1; INF_MG_1 moveInGunner MRAP_2_3_WT1}};
-	if !(isNil "INF_WTL_1") then {if (player == INF_WTL_1) then {INF_WTL_1 assignAsCargo MRAP_2_3_WT1; INF_WTL_1 moveInCargo MRAP_2_3_WT1}};
-	if !(isNil "INF_CLS_3") then {if (player == INF_CLS_3) then {INF_CLS_3 assignAsCargo MRAP_2_3_WT1; INF_CLS_3 moveInCargo MRAP_2_3_WT1}};
+	if !(isNil "FOC_CDE_8") then {if (player == FOC_CDE_8) then {FOC_CDE_8 assignAsDriver MRAP_2_3_WT1; FOC_CDE_8 moveInDriver MRAP_2_3_WT1}};
+	if !(isNil "FOC_AA_81") then {if (player == FOC_AA_81) then {FOC_AA_81 assignAsGunner MRAP_2_3_WT1; FOC_AA_81 moveInGunner MRAP_2_3_WT1}};
+	if !(isNil "FOC_AA_82") then {if (player == FOC_AA_82) then {FOC_AA_82 assignAsCargo MRAP_2_3_WT1; FOC_AA_82 moveInCargo MRAP_2_3_WT1}};
+	if !(isNil "FOC_MED_81") then {if (player == FOC_MED_81) then {FOC_MED_81 assignAsCargo MRAP_2_3_WT1; FOC_MED_81 moveInCargo MRAP_2_3_WT1}};
 	// 2-3 ALPHA	- MRAP_2_3_WT2
-	if !(isNil "INF_AMS_1") then {if (player == INF_AMS_1) then {INF_AMS_1 assignAsDriver MRAP_2_3_WT2; INF_AMS_1 moveInDriver MRAP_2_3_WT2}};
-	if !(isNil "INF_MS_1") then {if (player == INF_MS_1) then {INF_MS_1 assignAsGunner MRAP_2_3_WT2; INF_MS_1 moveInGunner MRAP_2_3_WT2}};
-	if !(isNil "INF_HMG_1") then {if (player == INF_HMG_1) then {INF_HMG_1 assignAsCargo MRAP_2_3_WT2; INF_HMG_1 moveInCargo MRAP_2_3_WT2}};
-	if !(isNil "INF_AHMG_1") then {if (player == INF_AHMG_1) then {INF_AHMG_1 assignAsCargo MRAP_2_3_WT2; INF_AHMG_1 moveInCargo MRAP_2_3_WT2}};
+	if !(isNil "FOC_CDE_9") then {if (player == FOC_CDE_9) then {FOC_CDE_9 assignAsDriver MRAP_2_3_WT2; FOC_CDE_9 moveInDriver MRAP_2_3_WT2}};
+	if !(isNil "FOC_ATL_91") then {if (player == FOC_ATL_91) then {FOC_ATL_91 assignAsGunner MRAP_2_3_WT2; FOC_ATL_91 moveInGunner MRAP_2_3_WT2}};
+	if !(isNil "FOC_ATL_92") then {if (player == FOC_ATL_92) then {FOC_ATL_92 assignAsCargo MRAP_2_3_WT2; FOC_ATL_92 moveInCargo MRAP_2_3_WT2}};
+	if !(isNil "FOC_MED_91") then {if (player == FOC_MED_91) then {FOC_MED_91 assignAsCargo MRAP_2_3_WT2; FOC_MED_91 moveInCargo MRAP_2_3_WT2}};
 };
 
 if (didJIP) exitWith {};
