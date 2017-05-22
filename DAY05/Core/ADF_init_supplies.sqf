@@ -29,7 +29,7 @@ if !(isNil "crate_SOD_1") then {[crate_SOD_1] execVM "Core\C\ADF_cCargo_B_WetGea
 if !(isNil "crate_SOP_1") then {[crate_SOP_1] execVM "Core\C\ADF_cCargo_B_RcnJTC.sqf";};
 
 // Vehicles
-if !(isNil "MRAP_XO") then {[MRAP_XO] execVM "Core\C\ADF_vCargo_B_Car.sqf";};
+/*if !(isNil "MRAP_XO") then {[MRAP_XO] execVM "Core\C\ADF_vCargo_B_Car.sqf";};
 if !(isNil "MEDITRUCK_XO") then {[MEDITRUCK_XO] execVM "Core\C\ADF_vCargo_B_TruckMedi.sqf";};
 if !(isNil "MHQ") then {[MHQ] execVM "Core\C\ADF_vCargo_B_MHQ.sqf";};
 if !(isNil "SUPPLYTRUCK_AMMO") then {[SUPPLYTRUCK_AMMO] execVM "Core\C\ADF_vCargo_B_TruckAmmo.sqf";};
@@ -63,4 +63,4 @@ if !(isNil "MRAP_4SOR_SSC") then {[MRAP_4SOR_SSC] execVM "Core\C\ADF_vCargo_B_Ca
 if !(isNil "MRAP_4SOR_M") then {[MRAP_4SOR_M] execVM "Core\C\ADF_vCargo_B_CarRecon.sqf";};
 if !(isNil "MRAP_4SOR_R") then {[MRAP_4SOR_R] execVM "Core\C\ADF_vCargo_B_CarRecon.sqf";};
 if !(isNil "MRAP_4SOR_Y") then {[MRAP_4SOR_Y] execVM "Core\C\ADF_vCargo_B_CarRecon.sqf";};
-if !(isNil "SOV_4SOD_1") then {[SOV_4SOD_1] execVM "Core\C\ADF_vCargo_B_CarRecon.sqf";};
+if !(isNil "SOV_4SOD_1") then {[SOV_4SOD_1] execVM "Core\C\ADF_vCargo_B_CarRecon.sqf";};*/
