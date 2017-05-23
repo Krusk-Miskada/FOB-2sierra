@@ -53,10 +53,10 @@ _v addweaponCargoGlobal ["R3F_LGI_DEM", 1]; // LGI
 
 
 // Rockets/Missiles
-if (!ADF_mod_ACE3) then {_v addMagazineCargoGlobal ["R3F_AT4CS_mag", 5]}; // AT4
-if (!ADF_mod_ACE3) then {_v addMagazineCargoGlobal ["R3F_ERYX_mag", 5]}; // ERYX
-if (!ADF_mod_ACE3) then {_v addMagazineCargoGlobal ["R3F_STINGER_mag", 5]}; // STINGER
-if (!ADF_mod_ACE3) then {_v addMagazineCargoGlobal ["R3F_1Rnd_EXP_LGI", 20]}; // LGI
+_v addMagazineCargoGlobal ["R3F_AT4CS_mag", 5]; // AT4
+_v addMagazineCargoGlobal ["R3F_ERYX_mag", 5]; // ERYX
+_v addMagazineCargoGlobal ["R3F_STINGER_mag", 5]; // STINGER
+_v addMagazineCargoGlobal ["R3F_1Rnd_EXP_LGI", 20]; // LGI
 
 // Demo/Explosives
 _v addMagazineCargoGlobal ["DemoCharge_Remote_Mag", 4];
