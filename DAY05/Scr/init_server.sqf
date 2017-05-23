@@ -14,15 +14,15 @@ call compile preprocessFileLineNumbers "Scr\ADF_redress_Russians.sqf";
 call compile preprocessFileLineNumbers "Scr\ADF_redress_Cherno.sqf";
 
 // Load vehicle Supplies
-[MRAP_2PC] execVM "Core\C\ADF_vCargo_B_Car.sqf";
-{[_x] execVM "Core\C\ADF_vCargo_B_CarSQD.sqf"} forEach [MRAP_2_1_SQUAD, MRAP_2_2_SQUAD];
-{[_x] execVM "Core\C\ADF_vCargo_B_CarIFT.sqf"} forEach [MRAP_2_1_ALPHA, MRAP_2_1_BRAVO, MRAP_2_2_ALPHA, MRAP_2_2_BRAVO];
-{[_x] execVM "Core\C\ADF_vCargo_B_CarIWT.sqf"} forEach [MRAP_2_3_WT1, MRAP_2_3_WT2];
-{[_x] execVM "Core\C\ADF_vCargo_B_TruckMedi.sqf"} forEach [MEDITRUCK_XO, MedFacil];
+[MRAP_2PC] execVM "Core\C\ADF_vCargo_B_TruckMedi.sqf"; /* MPO20170522 remplacé par TrucMedi */
+{[_x] execVM "Core\C\ADF_vCargo_B_CarSQD.sqf"} forEach [MRAP_2_1_SQUAD, MRAP_2_2_SQUAD]; /* MPO20170522 remplacé par CarSQD */
+{[_x] execVM "Core\C\ADF_vCargo_B_CarSQD.sqf"} forEach [MRAP_2_1_ALPHA, MRAP_2_1_BRAVO, MRAP_2_2_ALPHA, MRAP_2_2_BRAVO]; /* MPO20170522 remplacé par CarSQD */
+{[_x] execVM "Core\C\ADF_vCargo_B_CarSQD.sqf"} forEach [MRAP_2_3_WT1, MRAP_2_3_WT2]; /* MPO20170522 remplacé par CarSQD */
+{[_x] execVM "Core\C\ADF_vCargo_B_TruckMedi.sqf"} forEach [MEDITRUCK_XO, MedFacil]; /* MPO20170522 modif dans TruckMedi */
 
 ///// NRF FARGO
 
-// Foot patrols	
+// Foot patrols
 NRF_grp_1 = [getPos oGunshipPad_1, west, (configFile >> "CfgGroups" >> "west" >> "BLU_F" >> "Infantry" >> "BUS_InfSentry")] call BIS_fnc_spawnGroup;
 NRF_grp_1 setGroupIdGlobal ["5-1 ALPHA"];
 
@@ -31,7 +31,7 @@ NRF_grp_2 setGroupIdGlobal ["5-1 BRAVO"];
 
 // Static Defences & Ambient Vehicles
 private "_u";
-NRF_grp_3 = createGroup west; 
+NRF_grp_3 = createGroup west;
 _u = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "SERGEANT"]; _u moveInGunner oStat_01;
 _u = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "CORPORAL"]; _u moveInGunner oStat_02;
 _u = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "PRIVATE"]; _u moveInGunner oStat_03;
@@ -72,7 +72,7 @@ ADF_fnc_Everest = {
 	params ["_o"];
 	diag_log	"-----------------------------------------------------";
 	diag_log format ["TWO SIERRA: Everest%1 destroyed", _o];
-	diag_log	"-----------------------------------------------------";	
+	diag_log	"-----------------------------------------------------";
 };
 
 #include "init_AO.sqf"
