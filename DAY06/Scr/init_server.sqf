@@ -1,7 +1,7 @@
 diag_log "ADF RPT: Init - executing init_server.sqf"; // Reporting. Do NOT edit/remove
 
 // init
-call compile preprocessFileLineNumbers "Core\F\ADF_fnc_pition.sqf";
+call compile preprocessFileLineNumbers "Core\F\ADF_fnc_position.sqf";
 call compile preprocessFileLineNumbers "Core\F\ADF_fnc_distance.sqf";
 call compile preprocessFileLineNumbers "Core\F\ADF_fnc_vehiclePatrol.sqf";
 call compile preprocessFileLineNumbers "Core\F\ADF_fnc_defendArea.sqf";
