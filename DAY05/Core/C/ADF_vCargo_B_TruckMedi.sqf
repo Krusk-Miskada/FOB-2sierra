@@ -40,10 +40,10 @@ if (ADF_mod_ACE3) then {
 };
 
 // Grenades
-_v addMagazineCargoGlobal ["SmokeShell", 50];
-_v addMagazineCargoGlobal ["SmokeShellGreen", 50];
-_v addMagazineCargoGlobal ["SmokeShellRed", 25];
-_v addMagazineCargoGlobal ["SmokeShellBlue", 25];
+_v addMagazineCargoGlobal ["SmokeShell", 20];
+_v addMagazineCargoGlobal ["SmokeShellGreen", 20];
+_v addMagazineCargoGlobal ["SmokeShellRed", 5];
+_v addMagazineCargoGlobal ["SmokeShellBlue", 5];
 
 // ACE3 Specific
 if (ADF_mod_ACE3) then {_v addItemCargoGlobal ["ACE_EarPlugs", 5]};
@@ -64,4 +64,4 @@ if (ADF_mod_ACE3) then {
 };
 
 // Misc items
-_v addItemCargoGlobal ["ToolKit", 2];
+_v addItemCargoGlobal ["ToolKit", 1];
