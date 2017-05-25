@@ -66,24 +66,24 @@ player createDiaryRecord ["2SOPORD",["Call Signs","<br/><br/>
 
 <font color='#9DA698'>
 ACO	- FAIRCHILD<br/>
-CAS	- RAVEN<br/>
+CAS	- RABBIT<br/>
 SatNav AJR - ACE<br/>
 VJTF 5 BAT TOC - MOTHER<br/>
 NRF 2 SPT GRP - UNCLE<br/>
 Chernarussian Armed Forces - DONALD<br/><br/>
 
 BALOTA AB - FARGO<br/>
-Ammo Cache - BULLDOG<br/>
-Search Grid - NOVEMBER<br/><br/>
+Cache d'arme - BULLDOG<br/>
+Zone de recherche - NOVEMBER<br/><br/>
 
-Soborian Separatists - KUJO<br/>
-CSAT Russian Forces - BORIS
+Separatistes Soboriens - KUJO<br/>
+CSAT Russe - BORIS
 
-</font><br/><br/><font size='14' color='#d7dbd5'>NOTAF</font><br/>
+</font><br/><br/><font size='14' color='#d7dbd5'>DIVERS</font><br/>
 
 <font color='#9DA698'>
-VEGAS - Primary MSR<br/>
-YORK - Secondary MSR
+VEGAS: MSR principal<br/>
+YORK: MSR secondaire
 
 <br/><br/></font><font size='14' color='#d7dbd5'>CHALLENGES</font><br/>
 
@@ -97,58 +97,56 @@ Password: BUSH
 player createDiaryRecord ["2SOPORD",["Notes","<br/><br/>
 <font size='18'>NOTES</font><br/><br/>
 <font color='#9DA698'>
-Soborian Separatists have launched blitz attacks in combination with artillery barrages on cities in the green zone. Last nights’ barrages caused hundreds of civilian casualties. Widespread coverage on global media resulted in NATO finally getting a mandate to assist CAF (DONALD) with the security of Eastern Chernarus. Time to get some real work done! <br /><br />
-MOTHER believes that the Soborian Separatists are trying to break through to Solnichniy and create a corridor that divides the green CAF zone. This will result in Disha AB being cut-off by road.<br />
-The Soborian Separatists are being supplied from various cache locations north of Balota AB. Finding and destroying these weapons and ammunition caches will slow down the Soborian Separatists advance and will give CAF time to regroup.
+KUJO a lancé des attaques éclaires en combinaison avec l'artillerie sur les barrages des villes dans la zone verte. Ces dernières attaques nocturnes ont provoqué des centaines de pertes civiles. La couverture généralisée sur les médias mondiaux a finalement permis à l'OTAN d'obtenir un mandat pour aider DONALD avec les forces de sécurité de Chernarus oriental. MERE pense que les séparatistes essayent de passer à Solnichniy et créer un couloir qui divise la zone verte du CAF. Cela aura un impacte dans Disha AB qui est coupé par la route. Les séparatistes se fournissent à partir de divers caches au nord de Balota AB. Trouver et détruire ces caches d'armes et de munitions ralentira les séparatistes et donnera au CAF le temps de se regrouper.
 </font><br/><br/>
 "]];
 
-// command & signal
+// commandement et transmission
 player createDiaryRecord ["2SOPORD",["Command & Signal","<br/><br/>
-<font size='18'>COMMAND AND SIGNAL</font><br/><br/>
+<font size='18'>COMMANDEMENT ET TRANSMISSION</font><br/><br/>
 
-<font size='14' color='#d7dbd5'>COMMAND</font><br/>
+<font size='14' color='#d7dbd5'>COMMANDEMENT</font><br/>
 
 <font color='#9DA698'>
-Commander leader location: SOP, Commanders intent<br/>
-Chain of Command: 2 PC, 2 SQL, 2 WTL, 2 FTL
+Place du chef: initiative du commandement sur place, procédure standard.<br/>
+Chaîne de commandement: 1 CDS, 1 CDG, 2 CDE
 <br/><br/></font>
 
-<font size='14' color='#d7dbd5'>SIGNAL</font><br/>
+<font size='14' color='#d7dbd5'>TRANSMISSION</font><br/>
 
 <font color='#9DA698'>
-Frequencies and call signs: Annex B<br/>
-Pyrotechnics and signals: SOP<br/>
-Challenges and passwords: Annex B<br/>
-Code words: SOP
+Fréquences et indicatifs: voir ANNEXE B<br/>
+Pyrotechnie et signaux: procédure standard<br/>
+Challenges et passwords: voir ANNEXE B<br/>
+Mots de passe: procédure standard
 </font><br/><br/>
 "]];
 
-// service & support
+// équipements et appuis
 player createDiaryRecord ["2SOPORD",["Service & Support","<br/><br/>
-<font size='18'>SERVICE AND SUPPORT</font><br/><br/>
+<font size='18'>EQUIPEMENTS ET APPUIS</font><br/><br/>
 
-<font size='14' color='#d7dbd5'>SUPPLY</font><br/>
-
-<font color='#9DA698'>
-SOPs in effect for sustainment operations. CCPs to be established on-site. MediVac available at FARGO.<br/><br/>
-Rations: ammo and material supply in vehicles, NRF SOP<br/>
-Uniforms: NRF VJTF 2 PLT SOP<br/>
-Arms and ammunitions: NRF VJTF 2 PLT SOP
-
-</font><br/><br/><font size='14' color='#d7dbd5'>VEHICLES</font><br/>
+<font size='14' color='#d7dbd5'>EQUIPEMENTS</font><br/>
 
 <font color='#9DA698'>
-PC – 1 x MRAP<br/>
-2-1 Squad/2-2 Squad – 4 x MRAP, 2 x MRAP HMG<br/>
-2-3 Squad – 2 x MRAP GMG<br/>
-Captured material: SOP
+Procédure standard en vigueur pour les opérations de maintien en puissance. Les zones d'évacuations doivent être établis sur place. MEDEVAC disponible à FARGO.<br/><br/>
+Equipements: approvisionnement en munitions et matériels dans les véhicules.<br/>
+Uniformes: Tenue URR CE<br/>
+Armements et munitions: Equipé
+
+</font><br/><br/><font size='14' color='#d7dbd5'>VEHICULES</font><br/>
+
+<font color='#9DA698'>
+PC – 1 x Humvees<br/>
+2-1 Squad/2-2 Squad – 2 x Humvees 12.7, 2 x Humvees 40<br/>
+2-3 Squad – 2 x Humvees 40<br/>
+Matériel capturé: procédure standard.
 <br/><br/></font>
 
-<font size='14' color='#d7dbd5'>SUPPORT</font><br/>
+<font size='14' color='#d7dbd5'>APPUIS</font><br/>
 
 <font color='#9DA698'>
-CAS: RABBIT, AH-99 ex FARGO. Station: DELTA
+CAS: RAVEN, AH-99 à FARGO. Indicatif: DELTA
 </font><br/><br/>
 "]];
 
@@ -156,45 +154,42 @@ CAS: RABBIT, AH-99 ex FARGO. Station: DELTA
 player createDiaryRecord ["2SOPORD",["Execution","<br/><br/>
 <font size='18'>EXECUTION</font><br/><br/>
 
-<font size='14' color='#d7dbd5'>CONCEPT OF OPERATIONS</font><br/>
+<font size='14' color='#d7dbd5'>CONCEPTE DE L'OPERATION</font><br/>
 
 <font color='#9DA698'>
-1. 2PLT to move out ex FARGO and drive north towards DONALD CP via YORK.<br/>
-2. 2PLT to enter NOVEMBER grid.<br/>
-3. 2PLT to search and destroy BULLDOG.<br/>
-4. 2PLT to return to FARGO for debrief.<br/>
-5. ORP’s to be established prior to departure.<br/>
-6. Execution of mission objectives to be briefed on site by PC.
+1. Sortir de FARGO et conduire vers le nord en direction de DONALD CP par YORK.<br/>
+2. Entrer dans NOVEMBER<br/>
+3. Rechercher et détruire BULLDOG.<br/>
+4. Retourner à FARGO pour un compte rendu.<br/>
 
 <br/><br/></font>
 
-<font size='14' color='#d7dbd5'>COMMANDERS INTENT</font><br/>
+<font size='14' color='#d7dbd5'>INTENTION DU COMMANDEMENT</font><br/>
 
 <font color='#9DA698'>
-2PLT will travel in SOP convoy to NOVEMBER. 2PLT will locate BULLDOG. 2PLT destroy BULLDOG. 2PLT will travel in SOP convoy to FARGO. 
+Se rendre en convoi à NOVEMBRE. Localiser et détruire BULLDOG. Revenir à FARGO en convoi.
 <br/><br/></font>
 
-<font size='14' color='#d7dbd5'>SUB UNIT MISSIONS</font><br/>
+<font size='14' color='#d7dbd5'>MISSION DES UNITEES SUBORDONNEES</font><br/>
 
 <font color='#9DA698'>
-None.<br/><br/>
+Néant.<br/><br/>
 </font>
 
-<font size='14' color='#d7dbd5'>COORDINATING INSTRUCTIONS</font><br/>
+<font size='14' color='#d7dbd5'>COORDINATION</font><br/>
 
 <font color='#9DA698'>
-1. Order of movement, formations: On-site commanders intent, SOP<br/>
-2. Actions at halts (short/long): SOP<br/>
-3. Routes (primary/alternate): MSR YORK / MSR VEGAS.<br/>
-4. IRP: MSR YORK.<br/>
-5. Actions at danger areas: SOP<br/>
-6. Actions on enemy contact: SOP<br/>
-7. Reorganization and consolidation: SOP<br/>
-8. Fire control measures: On-site commanders intent, SOP<br/>
-9. Priority Intelligence Requirements: On-site, MOTHER<br/>
-10. Debriefing requirements: Commanders intent<br/>
-11. Reports: ACE: SOP, SALUTE: SOP<br/>
-12. ROE: On-site commanders intent, SOP
+1. Ordre de mouvement, formations: initiative du commandement sur place, procédure standard.<br/>
+2. Actions pour les arrêts (court / long): procédure standard.<br/>
+3. Routes (primaire / secondaire): MSR YORK / MSR VEGAS.<br/>
+4. MSR principal: YORK<br/>
+5. Actions dans les zones dangereuses: procédure standard.<br/>
+6. Actions au contact de l'ennemi: procédure standard.<br/>
+7. Réorganisation et consolidation: procédure standard.<br/>
+8. Mesures de lutte contre l'incendie: initiative du commandement sur place, procédure standard.<br/>
+9. Renseignement de priorité, rendre compte à MÈRE.<br/>
+10. Débriefing: initiative du commandement.<br/>
+11. Règle d'engagement: initiative du commandement sur place, procédure standard.<br/>
 </font><br/><br/>
 "]];
 
@@ -202,7 +197,7 @@ None.<br/><br/>
 player createDiaryRecord ["2SOPORD",["Mission","<br/><br/>
 <font size='18'>MISSION</font><br/><br/>
 <font color='#9DA698'>
-Search and destroy ammo caches in NOVEMBER grid.
+Rechercher et détruire les caches d'armes dans la zone de recherche (NOVEMBER).
 </font><br/><br/>
 "]];
 
@@ -211,88 +206,86 @@ player createDiaryRecord ["2SOPORD",["Situation","<br/><br/>
 <font size='18'>SITUATION</font><br/><br/>
 
 <font color='#9DA698'>
-OpFor: Soborian Separatists (KUJO) and Armed Forces of the Russian Federation (BORIS).<br/>
-KUJO’s recent successes partly depend on their ability to rapidly re-supply their forces. MOTHER suggests they have various ammo caches hidden throughout the Soborian grid. 
+OpFor: Separatistes Soboriens (KUJO) et Forces Armées de la Fédération de Russie (BORIS)<br/>
+Les succès récents de KUJO dépendent en partie de leur capacité à réapprovisionner rapidement leurs forces. MERE suggère qu'ils ont divers caches de munitions cachés sur toute l'île. 
 <br/><br/>
 </font>
 
-<font size='14' color='#d7dbd5'>ENEMY FORCES</font><br/>
+<font size='14' color='#d7dbd5'>FORCES ENI</font><br/>
 
 <font color='#9DA698'>
-1. KUJO has a moderate presence in most urban areas north of the green zone.<br/>
-2. BORIS is actively patrolling the Russian grid. ACE suggests they cross over into the Soborian zone occasionally.<br/>
-3. KUJO: Small arms and IFV’s patrol north of the green zone and occasionally cross over into DONALD territory.<br/>
-4. Strength KUJO: Est. 3000-4000 separatists in the Sobor Province.<br/>
-5. Strength BORIS: 3 Infantry Battalions, 1 Cavalry Battalion and 2 Air Wings + support coy’s. Est. 2700 pax.<br/>
-6. MPCOA: Additional security for BULLDOG locations. No intel on reinforcements.<br/>
-7. KUJO arms: various small arms, mostly Russian, some Iranian and unknown origin. <br/>
-   AT capability: RPG, MPRL.<br/>
-8. KUJO CR: mostly casual clothing + light body armor + improvised vests. Most KUJO carry backpacks with IED’s and limited supplies.
-
-<br/><br/>
-</font>
-
-<font size='14' color='#d7dbd5'>FRIENDLY FORCES</font><br/>
-
-<font color='#9DA698'>
-1. VJTF 5 BAT, 2nd Platoon. OUS: ANNEX A.<br/>
-2. NRF 2 SPT GRP at FARGO.<br/>
-3. CAF 3rd and 4th BATT at Disha AB.<br/>
-4. CAF 2nd AIRBORN INF BRIG at Elektrozavodsko
+1. KUJO a une présence modérée dans la plupart des zones urbaines au nord de la zone verte.<br/>
+2. BORIS patrouille activement dans la zone. ACE suppose qu'ils traversent la zone soborienne de temps en temps.<br/>
+3. KUJO: armes légères et patrouille au nord de la zone verte. Traversent parfois le territoire de DONALD.<br/>
+4. KUJO: Estimé à 3000-4000 séparatistes dans la province de Sobor.<br/>
+5. BORIS: 3 CIE d'inf., 1 CIE de cavalerie et 2 avions. Estimé à 2700 pax.<br/>
+6. Action: Sécurité supplémentaire sur les caches d'armes (BULLDOG). Pas d'informations sur d'éventuels renforts.<br/>
+7. Armement: diverses armes légères, principalement russes et iranienne. Capacité anti-char: RPG. <br/>
+8. Tenues: vêtements principalement décontractés, gilets improvisés. La plupart des JOSEPH portent des sacs à dos avec des IED et des fournitures limitées.
 
 <br/><br/>
 </font>
 
-<font size='14' color='#d7dbd5'>NEUTRAL</font><br/>
+<font size='14' color='#d7dbd5'>FORCES AMI</font><br/>
 
 <font color='#9DA698'>
-1. None<br/><br/>
+1. 5ème Compagnie (CIE), 2ème Section: voir ANNEXE A.<br/>
+2. 2 Groupe de soutien à FARGO.<br/>
+3. CAF: 3ème et 4ème CIE à Disha AB.<br/>
+4. CAF: 2ème CIE d'INF aéroportée à Elektrozavodsko.
+
+<br/><br/>
 </font>
 
-<font size='14' color='#d7dbd5'>CIVILIANS</font><br/>
+<font size='14' color='#d7dbd5'>DIVERS</font><br/>
 
 <font color='#9DA698'>
-1. Civilians in the AO are generally neutral towards coalition forces.
+1. Néant<br/><br/>
+</font>
+
+<font size='14' color='#d7dbd5'>CIVILS</font><br/>
+
+<font color='#9DA698'>
+1. Les civils sont généralement neutres face aux forces de la coalition.
 </font><br/><br/>
 
-<font size='14' color='#d7dbd5'>ATTACHMENTS AND DETACHMENTS</font><br/>
+<font size='14' color='#d7dbd5'>SOUTIENT ET DÉTACHEMENTS</font><br/>
 
 <font color='#9DA698'>
-Attachments: 1 x AH-99, 6 CAVBAT, 6TH SQDR, ex FARGO.<br/>
-Detachments: none.
+Soutient: 1 x AH-99, 6 unités de cavalerie, 6ème CIE à FARGO.<br/>
+Détachement: néant.
 </font><br/><br/>
 "]];
 
-// terrain & weather
-player createDiaryRecord ["2SOPORD",["Terrain & weather","<br/><br/>
-<font size='18'>TERRAIN AND WEATHER</font><br/><br/>
+// terrain et météo
+player createDiaryRecord ["2SOPORD",["Terrain et météo","<br/><br/>
+<font size='18'>TERRAIN ET METEO</font><br/><br/>
 
 <font size='14' color='#d7dbd5'>TERRAIN</font><br/>
 
 <font color='#9DA698'>
-1.	225 Km2 of which 100+ Km2 forest areas and rocky coastlines.<br/>
-2.	Semi-mountainous. MSL ranging from 0.1 m to 714.15 m.<br/>
-3.	Four MSR’s running from North to South and West to North.<br/>
-4.	MSR tarmac roads are off good quality. Dirt roads off-side MSR’s.<br/>
-5.	Forest areas provide good cover. <br/>
-6.	Largest cities are concentrated in the South and South East. Various industrial installations in proximity of large cities.<br/>
-7.	Smaller village’s inland, situated in deep valleys, hidden in forested ridges or on elevated plateaus with lush meadows.<br/>
-8.	Effects on enemy: usage of forests for cover and operating bases.<br/>
-9.	Effects on friendly: hill and forest provide cover even when travelling on the MSR’s.<br/>
-10.	Key terrain: Lush, Forest, dense vegetation, 
+1.	Semi-montagneux. 225 KM² dont plus de 100 KM² de forêts et de côtes rocheuses.<br/>
+2.	Altitude moyenne: 600 M<br/>
+3.	Quatre MSR: du nord au sud et de l'ouest au nord: VEGAS / YORK / OLAV / DURBAN<br/>
+4.	Les MSR sont de bonne qualité.<br/>
+5.	Les zones forestières offrent une bonne couverture.<br/>
+6.	Les plus grandes villes sont concentrées dans le Sud et le Sud-Est de l'île. Diverses installations industrielles sont situées à proximité des grandes villes.<br/>
+7.	Les plus petits villages sont situés dans des vallées profondes, caché dans les crêtes boisées ou sur des plateaux élevés avec des prés luxuriants.<br/>
+8.	ENI: utilisation des forêts pour la couverture et les bases d'opérations.<br/>
+9.	AMI: les collines et les forêts fournissent une couverture même en ce déplacent sur le MSR.<br/>
 <br/><br/>
 </font>
 
-<font size='14' color='#d7dbd5'>WEATHER</font><br/>
+<font size='14' color='#d7dbd5'>METEO</font><br/>
 
 <font color='#9DA698'>
-1.	Temperature High: 17C.<br/>
-2.	Temperature Low: 11C, Dew point: 14C.<br/>
-3.	Wind: Moderate, 7-12 Knots.
+1.	Temp. max.: 17C°<br/>
+2.	Temp. mini.: 11C°<br/>
+3.	Vent: Modéré, 13 à 22
 </font><br/><br/>
 "]];
 
-///// CAMPAIGN
+///// CAMPAGNE
 player createDiarySubject ["2SCPGN","Two Sierra Campaign"];
 
 player createDiaryRecord ["2SCPGN",["Game Master/Commander Info","<br/><br/>
