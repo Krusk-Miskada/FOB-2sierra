@@ -66,65 +66,65 @@ waitUntil {sleep 2; ADF_missionInit}; sleep 5;
 	["BALOTA AB","<t align = 'center' shadow = '1' size = '1.0'>%1</t><br/>"]
 ] spawn ADF_fnc_typeWriter;
 
-["2S","","FAIRCHILD this is TWO SIERRA. We're OSCAR MIKE. Over."] call ADF_fnc_MessageParser; sleep 12;
-["ACO","ACO","TWO SIERRA this is FAIRCHILD. Solid copy. Break. ACE has spotted several victors in NOVEMBER. Break. Expect more resistance. KUJO has mobilized its forces in the area. Break.<br /><br />IED’s are much harder to spot in the dark. Instruct your drivers to scan the roads carefully. Break.<br /><br />DONALD is patrolling in the green zone. Do not engage them. Break.<br /><br />Avoid the BORIS perimeter at any cost.<br /><br />Good luck TWO Sierra. Over."] call ADF_fnc_MessageParser; sleep 20;
-["2S","","FAIRCHILD this is TWO SIERRA. Roger. Out"] call ADF_fnc_MessageParser;
+["2S","","FAIRCHILD ici TWO SIERRA. Nous sommes en mouvement. Parlez."] call ADF_fnc_MessageParser; sleep 12;
+["ACO","ACO","TWO SIERRA ici FAIRCHILD. Reçu. ACE a repérer de nombreux ennemis en NOVEMBER. Attendez-vous à une grande résistance. KUJO a mobilisé ses forces dans la région.<br /><br />Les IED sont plus difficiles à repérer la nuit. Prévenez vos conducteurs de cheker les routes soigneusement.<br /><br />DONALD patrouille dans la green zone. Ne les engagez pas.<br /><br />Evitez BORIS à tout prix.<br /><br />Bonne chance TWO Sierra. Parlez."] call ADF_fnc_MessageParser; sleep 20;
+["2S","","FAIRCHILD ici TWO SIERRA. Reçu. Terminer"] call ADF_fnc_MessageParser;
 
 ADF_fnc_CacheDestroyed = {
 	ADF_cacheCnt = ADF_cacheCnt + 1;
 	if (ADF_cacheCnt == 1) exitWith {
 		sleep random 5;
-		["2S","","FAIRCHILD this is TWO SIERRA. stand-by for traffic. Over."] call ADF_fnc_MessageParser; sleep 6;
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Send. Over."] call ADF_fnc_MessageParser; sleep 8;
-		["2S","","FAIRCHILD this is TWO SIERRA. Found and destroyed one BULLDOG. How copy?"] call ADF_fnc_MessageParser; sleep 13;
-		["ACO","ACO","TWO SIERRA this is TWO SIERRA this is FAIRCHILD Good copy. One BULLDOG destroyed. Continue with tasking. Over."] call ADF_fnc_MessageParser; sleep 11;
-		["2S","","FAIRCHILD this is TWO SIERRA. Roger. Out"] call ADF_fnc_MessageParser;
+		["2S","","FAIRCHILD ici TWO SIERRA. Prenez message. Parlez."] call ADF_fnc_MessageParser; sleep 6;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Envoyez."] call ADF_fnc_MessageParser; sleep 8;
+		["2S","","FAIRCHILD ici TWO SIERRA. Trouvez et détruisez BULLDOG. Parlez."] call ADF_fnc_MessageParser; sleep 13;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD Reçu. Un BULLDOG détruit. On continue les recherches. Parlez."] call ADF_fnc_MessageParser; sleep 11;
+		["2S","","FAIRCHILD ici TWO SIERRA. Reçu. Terminer"] call ADF_fnc_MessageParser;
 	};
 	if (ADF_cacheCnt == 2) exitWith {
 		sleep random 5;
-		["2S","","FAIRCHILD this is TWO SIERRA. Message. Over."] call ADF_fnc_MessageParser; sleep 6;
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Send traffic. Over."] call ADF_fnc_MessageParser; sleep 8;			
-		["2S","","FAIRCHILD this is TWO SIERRA. Found and destroyed another BULLDOG. How copy?"] call ADF_fnc_MessageParser; sleep 13;
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD Solid copy. Two BULLDOGS destroyed. Continue with tasking. Over."] call ADF_fnc_MessageParser; sleep 11;
-		["2S","","FAIRCHILD this is TWO SIERRA. Roger. Out"] call ADF_fnc_MessageParser;
+		["2S","","FAIRCHILD ici TWO SIERRA. Prenez message. Parlez."] call ADF_fnc_MessageParser; sleep 6;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Envoyez. Parlez."] call ADF_fnc_MessageParser; sleep 8;			
+		["2S","","FAIRCHILD ici TWO SIERRA. Trouvez et détruisez un autre BULLDOG. Parlez"] call ADF_fnc_MessageParser; sleep 13;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD Reçu. Deux BULLDOGS détruits. Continuez vos recherches. Parlez."] call ADF_fnc_MessageParser; sleep 11;
+		["2S","","FAIRCHILD ici TWO SIERRA. Reçu. Terminer"] call ADF_fnc_MessageParser;
 	};
 	if (ADF_cacheCnt == 3) exitWith {
 		ADF_endMission = true;
 		sleep random 5;
-		["2S","","FAIRCHILD this is TWO SIERRA. Message. Over."] call ADF_fnc_MessageParser; sleep 6;
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Send message. Over."] call ADF_fnc_MessageParser; sleep 8;			
-		["2S","","FAIRCHILD this is TWO SIERRA. Destroyed BULLDOG number three. How copy?"] call ADF_fnc_MessageParser; sleep 13;
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Good copy. Break.<br/><br/>If you're up for it you can keep searching for more BULLDOGS. Break.<br/><br/>If not, you may RTB. Either case, mission accomplished. Over."] call ADF_fnc_MessageParser; sleep 20;
-		["2S","","FAIRCHILD this is TWO SIERRA. Roger. Out"] call ADF_fnc_MessageParser;
+		["2S","","FAIRCHILD ici TWO SIERRA. Prenez message. Parlez."] call ADF_fnc_MessageParser; sleep 6;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Envoyez. Parlez."] call ADF_fnc_MessageParser; sleep 8;			
+		["2S","","FAIRCHILD ici TWO SIERRA. Détruisez le troisième BULLDOG. Parlez"] call ADF_fnc_MessageParser; sleep 13;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Reçu.<br/><br/>Rechercher plus de BULLDOGS dès que prêts.<br/><br/>Sinon faites un RTB. Dans tous les cas, la mission est accomplie. Parlez."] call ADF_fnc_MessageParser; sleep 20;
+		["2S","","FAIRCHILD ici TWO SIERRA. Reçu. Terminer"] call ADF_fnc_MessageParser;
 	};
 	if (ADF_cacheCnt == 4) exitWith {
 		sleep random 5;
-		["2S","","FAIRCHILD this is TWO SIERRA. stand-by for traffic. Over."] call ADF_fnc_MessageParser; sleep 6;
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Send. Over."] call ADF_fnc_MessageParser; sleep 8;			
-		["2S","","FAIRCHILD this is TWO SIERRA. We decided to keep looking. Just found and destroyed another BULLDOG. How copy?"] call ADF_fnc_MessageParser; sleep 13;
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Solid copy. BULLDOG number four destroyed. Out."] call ADF_fnc_MessageParser;	
+		["2S","","FAIRCHILD ici TWO SIERRA. Prenez message. Parlez."] call ADF_fnc_MessageParser; sleep 6;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Envoyez. Parlez."] call ADF_fnc_MessageParser; sleep 8;			
+		["2S","","FAIRCHILD ici TWO SIERRA. Nous continuons les recherches. Nous avons détruit un autre BULLDOG. Parlez."] call ADF_fnc_MessageParser; sleep 13;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Reçu. Quatrième BULLDOG détruit. Out."] call ADF_fnc_MessageParser;	
 	};
 	if (ADF_cacheCnt == 5) exitWith {
 		sleep random 5;
-		["2S","","FAIRCHILD this is TWO SIERRA. Message. Over."] call ADF_fnc_MessageParser; sleep 6;
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Send traffic. Over."] call ADF_fnc_MessageParser; sleep 8			
-		["2S","","FAIRCHILD this is TWO SIERRA. BULLDOG number five destroyed. How copy?"] call ADF_fnc_MessageParser; sleep 13;
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Solid copy. RTB. That's an order! Over."] call ADF_fnc_MessageParser; sleep 14;
-		["2S","","FAIRCHILD this is TWO SIERRA. Roger. Out"] call ADF_fnc_MessageParser;		
+		["2S","","FAIRCHILD ici TWO SIERRA. Prenez message. Parlez."] call ADF_fnc_MessageParser; sleep 6;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Envoyez. Parlez."] call ADF_fnc_MessageParser; sleep 8			
+		["2S","","FAIRCHILD ici TWO SIERRA. BULLDOG numéro 4 détruit. Parlez."] call ADF_fnc_MessageParser; sleep 13;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Reçu. RTB. C'est un ordre ! Parlez."] call ADF_fnc_MessageParser; sleep 14;
+		["2S","","FAIRCHILD ici TWO SIERRA. Reçu. Terminer"] call ADF_fnc_MessageParser;		
 	};		
 	if (ADF_cacheCnt == 6) exitWith {
 		sleep random 5;
-		["2S","","FAIRCHILD this is TWO SIERRA. Message. Over."] call ADF_fnc_MessageParser; sleep 6;
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Send. Over."] call ADF_fnc_MessageParser; sleep 8;					
-		["2S","","FAIRCHILD this is TWO SIERRA. Six BULLDOGS destroyed. How copy?"] call ADF_fnc_MessageParser; sleep 13;
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Solid copy. Break. Appreciate the additional effort. Break.<br /><br />RTB. How copy?"] call ADF_fnc_MessageParser; sleep 18;
-		["2S","","FAIRCHILD this is TWO SIERRA. Roger. TWO SIERRA is OSCAR MIKE. Out."] call ADF_fnc_MessageParser;	
+		["2S","","FAIRCHILD ici TWO SIERRA. Prenez message. Parlez."] call ADF_fnc_MessageParser; sleep 6;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Envoyez. Parlez."] call ADF_fnc_MessageParser; sleep 8;					
+		["2S","","FAIRCHILD ici TWO SIERRA. Six BULLDOGS détruits. Parlez"] call ADF_fnc_MessageParser; sleep 13;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Reçu. Bravo pour l'effort supplémentaire.<br /><br />RTB. Parlez."] call ADF_fnc_MessageParser; sleep 18;
+		["2S","","FAIRCHILD ici TWO SIERRA. Reçu. TWO SIERRA en mouvement. Terminer."] call ADF_fnc_MessageParser;	
 	};		
 };
 
 ADF_endMissionMsg = {
 	sleep 10;	
-	["ACO","ACO","Job well done TWO SIERRA.<br/><br/>MOTHER said we delivered quite a blow by destroying those weapons caches.<br/><br/>Hot coffee and cold ones waiting in the mess."] call ADF_fnc_MessageParser; 
+	["ACO","ACO","Beau boulot TWO SIERRA.<br/><br/>MERE a annoncé que nous avons destabilisé l'ennemi en détruisant ces caches d'armes.<br/><br/>Allez boire une bonne bière au foyez, c'est ma tournée."] call ADF_fnc_MessageParser; 
 	sleep 20;
 
 	_l = ["tLayer"] call BIS_fnc_rscLayer; 
