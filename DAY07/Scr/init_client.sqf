@@ -66,33 +66,33 @@ waitUntil {sleep 2; ADF_missionInit}; sleep 5;
 	["FOB KEARNEY","<t align = 'center' shadow = '1' size = '1.0'>%1</t><br/>"]
 ] spawn ADF_fnc_typeWriter;
 
-["2S","","FAIRCHILD this is TWO SIERRA. We're OSCAR MIKE. Over."] call ADF_fnc_MessageParser; sleep 12;
-["ACO","ACO","TWO SIERRA this is FAIRCHILD. Roger.<br/><br/>Your orders are to seize and secure both DIANA and NOLA. Break.<br/>MOTHER wants you to raise the NRF flag at both DIANA and NOLA. Approach the flag pole to raise the flag and make MOTHER proud. Break.<br /><br />CAS will be available once both AA batteries have been taken out. How copy?"] call ADF_fnc_MessageParser; sleep 24;
-["2S","","FAIRCHILD this is TWO SIERRA. Solid copy on all. Out."] call ADF_fnc_MessageParser; 
+["2S","","FAIRCHILD ici TWO SIERRA. Nous sommmes en route. Parlez."] call ADF_fnc_MessageParser; sleep 12;
+["ACO","ACO","TWO SIERRA ici FAIRCHILD. Reçu.<br/><br/>Capturez et sécuriser DIANA and NOLA.<br/>MERE veux que vous levier le drapeau des FOB sur DIANA et NOLA. Approchez le mât des couleurs pour élever le drapeau et rendre fière le haut commandement.<br /><br />L'appui aérien sera disponible quand les 2 batteries anti-aérienne seront neutralisées. Parlez."] call ADF_fnc_MessageParser; sleep 24;
+["2S","","FAIRCHILD ici TWO SIERRA. Reçu. Terminer."] call ADF_fnc_MessageParser; 
 
 ADF_msg_AA1 = {
-	["2S","","FAIRCHILD this is TWO SIERRA. Stand-by for traffic. Over."] call ADF_fnc_MessageParser; sleep 6;
-	["ACO","ACO","TWO SIERRA this is FAIRCHILD. Send. Over."] call ADF_fnc_MessageParser; sleep 8;
-	["2S","","FAIRCHILD this is TWO SIERRA. AA battery at JANE neutralized. How copy?"] call ADF_fnc_MessageParser; sleep 7;
+	["2S","","FAIRCHILD ici TWO SIERRA. Prenez message."] call ADF_fnc_MessageParser; sleep 6;
+	["ACO","ACO","TWO SIERRA ici FAIRCHILD. Envoyez."] call ADF_fnc_MessageParser; sleep 8;
+	["2S","","FAIRCHILD ici TWO SIERRA. Les batteries AA de JANE sont neutralisées. Parlez."] call ADF_fnc_MessageParser; sleep 7;
 	if (ADF_CAS_activate) then {
 		execVM "Scr\ADF_CAS.sqf";
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Solid copy. LANCER is on station ZULU. Over."] call ADF_fnc_MessageParser; sleep 14;
-		["2S","","FAIRCHILD this is TWO SIERRA. Roger. Out."] call ADF_fnc_MessageParser;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Reçu. LANCER ce trouve sur la station ZULU. Parlez."] call ADF_fnc_MessageParser; sleep 14;
+		["2S","","FAIRCHILD ici TWO SIERRA. Reçu. Parlez."] call ADF_fnc_MessageParser;
 	} else {
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Good copy. Out."] call ADF_fnc_MessageParser;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Terminer."] call ADF_fnc_MessageParser;
 	};
 };
 
 ADF_msg_AA2 = {
-	["2S","","FAIRCHILD this is TWO SIERRA. stand-by for traffic. Over."] call ADF_fnc_MessageParser; sleep 6;
-	["ACO","ACO","FAIRCHILD: TWO SIERRA, this is FAIRCHILD. Send. Over."] call ADF_fnc_MessageParser; sleep 8;
-	["2S","","FAIRCHILD this is TWO SIERRA. AA battery at PATTY destroyed. How copy?"] call ADF_fnc_MessageParser; sleep 7;
+	["2S","","FAIRCHILD ici TWO SIERRA. Prenez message."] call ADF_fnc_MessageParser; sleep 6;
+	["ACO","ACO","FAIRCHILD: TWO SIERRA, ici FAIRCHILD. Envoyez."] call ADF_fnc_MessageParser; sleep 8;
+	["2S","","FAIRCHILD ici TWO SIERRA. Les batteries AA de PATTY sont détruites. Parlez"] call ADF_fnc_MessageParser; sleep 7;
 	if (ADF_CAS_activate) then {
 		execVM "Scr\ADF_CAS.sqf";
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Solid copy. LANCER is on station ZULU. Over."] call ADF_fnc_MessageParser; sleep 14;
-		["2S","","FAIRCHILD this is TWO SIERRA. Roger. Out."] call ADF_fnc_MessageParser;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Reçu. LANCER ce trouve sur la station ZULU. Parlez."] call ADF_fnc_MessageParser; sleep 14;
+		["2S","","FAIRCHILD ici TWO SIERRA. Reçu. Parlez."] call ADF_fnc_MessageParser;
 	} else {
-		["ACO","ACO","TWO SIERRA this is FAIRCHILD. Good copy. Out."] call ADF_fnc_MessageParser;
+		["ACO","ACO","TWO SIERRA ici FAIRCHILD. Terminer."] call ADF_fnc_MessageParser;
 	};
 };
 
